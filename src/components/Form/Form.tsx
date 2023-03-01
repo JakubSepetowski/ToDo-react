@@ -28,7 +28,7 @@ const Form = (props: Props) => {
 	return (
 		<form onSubmit={submintEventHandler}>
 			<div className='form'>
-				<h1 className='form__title'>Mange your task easily</h1>
+				<h1 className='form__title'>Manage your task easily</h1>
 				<div className='form__input-box'>
 					<input
 						onChange={inputEventHandler}
