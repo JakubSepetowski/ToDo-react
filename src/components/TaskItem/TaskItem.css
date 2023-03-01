@@ -1,0 +1,40 @@
+.task {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+	min-width: 800px;
+	background-color: #fff;
+	border-radius: 12px;
+	padding: 0.2em 2em;
+	box-shadow: 0 0 5px black;
+}
+.task .task__complete {
+	color: rgb(4, 211, 4);
+	font-style: italic;
+	text-decoration: line-through;
+}
+.task .task__incomplete {
+	color: black;
+}
+.task .task__text {
+	color: black;
+	font-weight: bold;
+}
+.task .task__done,
+.task .task__delete {
+	padding: 0.4em 0.8em;
+	border: none;
+	border-radius: 5px;
+	min-width: 80px;
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+.task .task__done {
+	margin-right: 20px;
+	background-color: royalblue;
+}
+.task__done:hover,
+.task__delete:hover {
+	transform: scale(1.05);
+}
